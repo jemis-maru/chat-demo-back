@@ -1,0 +1,16 @@
+{
+  "name": "chat-room-backend",
+  "version": "1.0.0",
+  "description": "Chat room using socket and express",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jemis Maru",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  }
+}
